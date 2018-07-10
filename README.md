@@ -1,7 +1,7 @@
 
 # redis-ratelimiter
 
-[![NPM version](https://img.shields.io/npm/v/redis-ratelimiter.svg?style=flat)](https://npmjs.com/package/redis-ratelimiter) [![NPM downloads](https://img.shields.io/npm/dm/redis-ratelimiter.svg?style=flat)](https://npmjs.com/package/redis-ratelimiter) [![CircleCI](https://circleci.com/gh/zcong1993/redis-ratelimiter/tree/master.svg?style=shield)](https://circleci.com/gh/zcong1993/redis-ratelimiter/tree/master)  [![codecov](https://codecov.io/gh/zcong1993/redis-ratelimiter/branch/master/graph/badge.svg)](https://codecov.io/gh/zcong1993/redis-ratelimiter)
+[![NPM version](https://img.shields.io/npm/v/@zcong/redis-ratelimiter.svg?style=flat)](https://npmjs.com/package/@zcong/redis-ratelimiter) [![NPM downloads](https://img.shields.io/npm/dm/@zcong/redis-ratelimiter.svg?style=flat)](https://npmjs.com/package/@zcong/redis-ratelimiter) [![CircleCI](https://circleci.com/gh/zcong1993/redis-ratelimiter/tree/master.svg?style=shield)](https://circleci.com/gh/zcong1993/redis-ratelimiter/tree/master)  [![codecov](https://codecov.io/gh/zcong1993/redis-ratelimiter/branch/master/graph/badge.svg)](https://codecov.io/gh/zcong1993/redis-ratelimiter)
  [![donate](https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&style=flat)](https://github.com/zcong1993/donate)
 
 ## Install
