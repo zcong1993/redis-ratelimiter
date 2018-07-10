@@ -1,6 +1,6 @@
 {
   "name": "@zcong/redis-ratelimiter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ratelimitor by redis",
   "repository": {
     "url": "zcong1993/redis-ratelimiter",
