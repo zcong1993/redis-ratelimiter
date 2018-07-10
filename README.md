@@ -7,16 +7,25 @@
 ## Install
 
 ```bash
-yarn add redis-ratelimiter
+$ yarn add @zcong/redis-ratelimiter
 ```
 
 ## Usage
 
 ```js
-const redisRatelimiter = require('redis-ratelimiter')
+const Ratelimiter = require('@zcong/redis-ratelimiter')
 
-redisRatelimiter()
-//=> foo
+const rlt = new Ratelimiter({
+  redisUrl: process.env.REDIS_URL,
+  rate: 2,
+  unit: 1
+})
+
+const run = async () => {
+  const key = 'test_key'
+  console.log(await rlt.payload(key)) // false
+  console.log(await rlt.payload(key, 2)) // true
+}
 ```
 
 ## Contributing
