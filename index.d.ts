@@ -2,7 +2,7 @@ declare class RateLimiter {
   rate: number
   unit: number
   constructor(opts: RateLimiter.Opts)
-  async payload(key: string, weight?: number = 1): Boolean
+  payload(key: string, weight?: number): Boolean
 }
 
 declare namespace RateLimiter {
