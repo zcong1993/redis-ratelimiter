@@ -13,7 +13,7 @@ class RateLimiter {
 
   async payload(key, weight = 1) {
     const now = await this._redis.incrby(key, weight)
-    if (now === 1) {
+    if (now === 1 || now === weight) {
       await this._redis.expire(key, this.unit)
     }
     if (now > this.rate) {
